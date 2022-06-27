@@ -7,7 +7,6 @@ import {Spin, Tabs} from 'antd'
 import { Wrapper } from './style'
 import TodoList from '@/components/Todos/TodoList'
 import TodoInput from '@/components/Todos/TodoInput'
-import No from '@/assets/images/no.png'
 export default function Events() {
   const {TabPane} = Tabs
   const [todos,setTodos] = useState([])
@@ -47,11 +46,11 @@ export default function Events() {
     return (
       <Wrapper>
         <header>
-          <img className = "title" src = "./src/assets/images/title.jpg"></img>
+          <img className = "title" src = "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ad0b22b3dcb64a688522d03e79ceef7e~tplv-k3u1fbpfcp-watermark.image?"></img>
           <div className='title-photo'>
-            <img src = "./src/assets/images/title1.jpg"></img>
-            <img src = "./src/assets/images/title2.jpg"></img>
-            <img src = "./src/assets/images/title3.jpg"></img>
+            <img src = "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf829e67c48144f79bf8941028009994~tplv-k3u1fbpfcp-watermark.image?"></img>
+            <img src = "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/066ff0e907d24e51ad6687c8982694cc~tplv-k3u1fbpfcp-watermark.image?"></img>
+            <img src = "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b93c2a0840964aed907e35790c6e7461~tplv-k3u1fbpfcp-watermark.image?"></img>
           </div>
         </header>
         <h2 className='app-title'>热门赛事</h2>
@@ -71,7 +70,7 @@ export default function Events() {
         <Spin spinning = {loading} tip ="加载中~">
          { todos.length== 0 ?
          <div className='nodata'>
-          <img src={No}></img>
+          <img src='https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6de2a9fb372d490ba42061305ad6a93a~tplv-k3u1fbpfcp-watermark.image?'></img>
           <p style={{fontSize:'15px'}}>暂无代办事项</p> 
          </div>:
          <TodoList todos = {todos}  />

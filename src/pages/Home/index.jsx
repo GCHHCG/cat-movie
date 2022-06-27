@@ -12,7 +12,7 @@ export default function Home() {
         <Wrapper>
             <header>
                 <span>
-                    <img src='./src/assets/images/logo.jpg'/>
+                    <img src='https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/141f64a34fd54fc79d10d64c5e08bf38~tplv-k3u1fbpfcp-watermark.image?'/>
                 </span>
                 <span className='title-h'>南昌</span>
                 <span> <i className="fa fa-sort-desc"></i> </span>
